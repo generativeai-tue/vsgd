@@ -3,7 +3,7 @@
 This repository contains the source code accompanying the paper:
 
  [Variational Stochastic Gradient Descent for Deep Neural Networks]()  
- <br/> [[Demos]](https://github.com/AKuzina/vsgd/blob/main/notebooks) 
+ <br/> [[Demos]](https://github.com/generativeai-tue/vsgd/blob/main/notebooks) 
  <!-- [[Slides (TBA)]]()  -->
  <br/>**[Haotian Chen\*](), [Anna Kuzina\*](https://akuzina.github.io/), [Babak Esmaeili](https://babak0032.github.io), & [Jakub M. Tomczak](https://jmtomczak.github.io/)**.
 
