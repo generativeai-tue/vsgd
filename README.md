@@ -14,7 +14,7 @@ Lastly, we carry out experiments on two image classification datasets and three 
 
 
 
-<img src="/pics/pgm_vsgd_2.png" height="180"/> <img src="/pics/cifar100_res.png" height="180"/> 
+<img src="pics/pgm_vsgd_2.png" height="180"/> <img src="pics/cifar100_res.png" height="180"/> 
 
 ### Repository structure
 
