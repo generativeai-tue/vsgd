@@ -1,0 +1,8 @@
+---
+setup:
+  project: vsgd
+  mode: online
+watch:
+  log: gradients
+  log_freq: 1000
+group: null

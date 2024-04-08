@@ -1,0 +1,16 @@
+---
+defaults:
+  - optimizer: adamW
+  - scheduler: null
+
+seed: 0
+resume_id: null
+device: cuda
+start_iter: 0
+max_iter: 10000
+grad_clip: 0
+grad_skip_thr: 0  # skip the update step is maximal grad norm is larger then this value (ignore if 0)
+save_freq: 1  # how often to save the checkpoint (in iterations)
+eval_test_freq: 10000  # how often to run evaluation on test dataset (in iterations)
+experiment_name: null
+optimizer_log_freq: -1

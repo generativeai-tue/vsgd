@@ -1,0 +1,9 @@
+---
+data_module:
+  _target_: dataset.cifar100.Cifar100
+  batch_size: 64
+  test_batch_size: 1024
+  use_augmentations: true
+x_dim: 32
+num_classes: 100
+name: cifar100

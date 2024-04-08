@@ -1,0 +1,29 @@
+# @package _global_
+defaults:
+  - override /dataset: cifar100
+  - override /model: vgg
+  - override /train/scheduler: stepLR
+
+dataset:
+  data_module:
+    batch_size: 256
+    test_batch_size: 256
+    use_augmentations: true
+model:
+  cfg_id: D 
+  batch_norm: true
+train:
+  experiment_name: test
+  resume_id: null
+  seed: 124
+  device: 'cuda:0'
+  save_freq: 500
+  eval_test_freq: 500
+  grad_clip: 0
+  grad_skip_thr: 0
+  max_iter: 30000
+  optimizer_log_freq: 100
+  scheduler:
+    step_size: 10000
+    gamma: 0.5
+    

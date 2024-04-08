@@ -1,0 +1,8 @@
+---
+_target_: model.resnext.ResNeXt
+cardinality: 8
+depth: 29
+widen_factor: 4
+dropRate: 0
+num_classes: ${dataset.num_classes}
+name: resnext

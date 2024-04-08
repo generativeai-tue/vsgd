@@ -1,0 +1,6 @@
+---
+_target_: model.vgg.VGG
+cfg_id: A # A, B, D, E for 11, 13, 16, 19 layers of VGG  
+batch_norm: true
+num_classes: ${dataset.num_classes}
+name: vgg

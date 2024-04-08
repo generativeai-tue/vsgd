@@ -1,0 +1,30 @@
+# @package _global_
+defaults:
+  - override /dataset: tiny_imagenet
+  - override /model: resnext
+  - override /train/scheduler: stepLR
+
+dataset:
+  data_module:
+    batch_size: 64
+    test_batch_size: 64
+    use_augmentations: true
+model:
+  cardinality: 8
+  depth: 18
+  widen_factor: 4
+  dropRate: 0
+train:
+  experiment_name: test
+  resume_id: null
+  seed: 124
+  device: 'cuda:0'
+  save_freq: 500
+  eval_test_freq: 500
+  grad_clip: 0
+  grad_skip_thr: 0
+  max_iter: 60000
+  optimizer_log_freq: 100
+  scheduler:
+    step_size: 20000
+    gamma: 0.5

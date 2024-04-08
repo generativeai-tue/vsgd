@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - model: resnet18
+  - dataset: cifar10
+  - train: defaults
+  - wandb: defaults
+  - experiment: null

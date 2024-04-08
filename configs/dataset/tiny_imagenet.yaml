@@ -1,0 +1,9 @@
+---
+data_module:
+  _target_: dataset.tiny_imagenet.TinyImagenet
+  batch_size: 64
+  test_batch_size: 1024
+  use_augmentations: true
+x_dim: 64
+num_classes: 200
+name: tiny-imagenet-200
